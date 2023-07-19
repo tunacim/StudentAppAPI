@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{4B051A5E-C55E-409D-B21C-946E4AE1B1F2}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="studentAPI/Program.cs">
+    <Files>
+      <File FileName="studentAPI/DataModels/Student.cs" Line="18" Column="19" />
+      <File FileName="studentAPI/DataModels/Address.cs" Line="1" Column="1" />
+      <File FileName="studentAPI/Controllers/StudentController.cs" Line="27" Column="2" />
+      <File FileName="studentAPI/Repositories/SqlStudentRepository.cs" Line="15" Column="1" />
+      <File FileName="studentAPI/Repositories/IStudentRepository.cs" Line="1" Column="1" />
+      <File FileName="studentAPI/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
+      <File FileName="studentAPI/Program.cs" Line="8" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="studentAPI" expanded="True">
+            <Node name="studentAPI" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="DataModels" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.studentAPI PreferredExecutionTarget="/Applications/Opera.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
