@@ -15,17 +15,21 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="DataModels\" />
     <None Remove="Repositories\" />
     <None Remove="DomainModels\" />
+    <None Remove="Profiles\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataModels\" />
     <Folder Include="Repositories\" />
     <Folder Include="DomainModels\" />
+    <Folder Include="Profiles\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Migrations\20230719133205_MyFirstMigration.Designer.cs" />

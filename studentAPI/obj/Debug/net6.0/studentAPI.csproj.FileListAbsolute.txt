@@ -106,3 +106,5 @@
 /Users/tunahanozen/StudentApp/studentAPI/studentAPI/obj/Debug/net6.0/studentAPI.pdb
 /Users/tunahanozen/StudentApp/studentAPI/studentAPI/obj/Debug/net6.0/studentAPI.genruntimeconfig.cache
 /Users/tunahanozen/StudentApp/studentAPI/studentAPI/obj/Debug/net6.0/ref/studentAPI.dll
+/Users/tunahanozen/StudentApp/studentAPI/studentAPI/bin/Debug/net6.0/AutoMapper.dll
+/Users/tunahanozen/StudentApp/studentAPI/studentAPI/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
