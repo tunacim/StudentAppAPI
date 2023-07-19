@@ -20,9 +20,11 @@
   <ItemGroup>
     <None Remove="DataModels\" />
     <None Remove="Repositories\" />
+    <None Remove="DomainModels\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataModels\" />
     <Folder Include="Repositories\" />
+    <Folder Include="DomainModels\" />
   </ItemGroup>
 </Project>

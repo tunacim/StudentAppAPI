@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tunahanozen/Projects/studentAPI/studentAPI/studentAPI.csproj": {}
+    "/Users/tunahanozen/StudentApp/studentAPI/studentAPI/studentAPI.csproj": {}
   },
   "projects": {
-    "/Users/tunahanozen/Projects/studentAPI/studentAPI/studentAPI.csproj": {
+    "/Users/tunahanozen/StudentApp/studentAPI/studentAPI/studentAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tunahanozen/Projects/studentAPI/studentAPI/studentAPI.csproj",
+        "projectUniqueName": "/Users/tunahanozen/StudentApp/studentAPI/studentAPI/studentAPI.csproj",
         "projectName": "studentAPI",
-        "projectPath": "/Users/tunahanozen/Projects/studentAPI/studentAPI/studentAPI.csproj",
+        "projectPath": "/Users/tunahanozen/StudentApp/studentAPI/studentAPI/studentAPI.csproj",
         "packagesPath": "/Users/tunahanozen/.nuget/packages/",
-        "outputPath": "/Users/tunahanozen/Projects/studentAPI/studentAPI/obj/",
+        "outputPath": "/Users/tunahanozen/StudentApp/studentAPI/studentAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/tunahanozen/.nuget/NuGet/NuGet.Config"

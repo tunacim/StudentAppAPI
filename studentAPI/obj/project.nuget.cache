@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Pygmu8xD3tEWRkghR6MNnfy7Qvqu4NvVHprO3GQhK+p2+7Dd37rcUX3n7ZMbYg0JaWlN9T9qy+prAYJFrwSHhg==",
+  "dgSpecHash": "juPk6+Xmr1PYqnZRjk1LaQ8k0x10iKHtkNFcmxseCJFnqlBi6OYoWpMVoOACoctUduK0S5WTmtb19vYt0zPXtw==",
   "success": true,
-  "projectFilePath": "/Users/tunahanozen/Projects/studentAPI/studentAPI/studentAPI.csproj",
+  "projectFilePath": "/Users/tunahanozen/StudentApp/studentAPI/studentAPI/studentAPI.csproj",
   "expectedPackageFiles": [
     "/Users/tunahanozen/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/tunahanozen/.nuget/packages/microsoft.entityframeworkcore/7.0.9/microsoft.entityframeworkcore.7.0.9.nupkg.sha512",
