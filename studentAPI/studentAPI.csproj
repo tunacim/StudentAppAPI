@@ -27,4 +27,7 @@
     <Folder Include="Repositories\" />
     <Folder Include="DomainModels\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Migrations\20230719133205_MyFirstMigration.Designer.cs" />
+  </ItemGroup>
 </Project>

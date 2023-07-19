@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.EntityFrameworkCore;
 using studentAPI.DataModels;
 
 namespace studentAPI.Repositories
@@ -12,7 +13,7 @@ namespace studentAPI.Repositories
         }
         public List<Student> GetStudents()
         {
-            return _studentAdminContext.Student.ToList();
+            return _studentAdminContext.Student.Include(nameof(Gender)).Include(nameof(Address)).ToList();
         }
     }
 }
