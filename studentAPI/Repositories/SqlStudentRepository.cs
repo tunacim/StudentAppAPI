@@ -11,10 +11,12 @@ namespace studentAPI.Repositories
         {
             _studentAdminContext = context;
         }
-        public List<Student> GetStudents()
+        public async Task<List<Student>> GetAllStudentsAsync()
         {
-            return _studentAdminContext.Student.Include(nameof(Gender)).Include(nameof(Address)).ToList();
+            return await  _studentAdminContext.Student.Include(nameof(Gender)).Include(nameof(Address)).ToListAsync();
         }
+
+        
     }
 }
 
