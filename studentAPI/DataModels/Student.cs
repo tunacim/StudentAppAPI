@@ -21,7 +21,7 @@ namespace studentAPI.DataModels
 
 		public Gender Gender { get; set; }
 
-		public Address? Address { get; set; }
+		public Adress? Adress { get; set; }
 	}
 }
 

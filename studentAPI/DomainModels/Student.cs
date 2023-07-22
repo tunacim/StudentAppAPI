@@ -23,7 +23,7 @@ namespace studentAPI.DomainModels
 
         public Gender Gender { get; set; }
 
-        public Address? Adress { get; set; }
+        public Adress? Adress { get; set; }
     }
 }
 

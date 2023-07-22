@@ -14,12 +14,12 @@ namespace studentAPI.Repositories
 
         public async Task<List<Student>> GetAllStudentsAsync()
         {
-            return await  _studentAdminContext.Student.Include(nameof(Gender)).Include(nameof(Address)).ToListAsync();
+            return await  _studentAdminContext.Student.Include(nameof(Gender)).Include(nameof(Adress)).ToListAsync();
         }
 
         public async Task<Student> GetStudentAsync(Guid studentId)
         {
-            return await _studentAdminContext.Student.Include(nameof(Gender)).Include(nameof(Address)).FirstOrDefaultAsync(x => x.Id==studentId);
+            return await _studentAdminContext.Student.Include(nameof(Gender)).Include(nameof(Adress)).FirstOrDefaultAsync(x => x.Id==studentId);
         }
 
         public async Task<List<Gender>> GetGendersAsync()
