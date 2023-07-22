@@ -4,23 +4,21 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="studentAPI/Repositories/SqlStudentRepository.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="studentAPI/Controllers/StudentController.cs">
     <Files>
       <File FileName="studentAPI/Profiles/AutoMapperProfiles.cs" />
       <File FileName="studentAPI/Program.cs" />
-      <File FileName="studentAPI/Controllers/StudentController.cs" />
+      <File FileName="studentAPI/Controllers/StudentController.cs" Line="42" Column="35" />
       <File FileName="studentAPI/Repositories/IStudentRepository.cs" Line="10" Column="47" />
       <File FileName="studentAPI/Repositories/SqlStudentRepository.cs" Line="19" Column="52" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="studentAPI">
-            <Node name="studentAPI">
-              <Node name="Profiles" expanded="True" />
-              <Node name="Repositories">
-                <Node name="SqlStudentRepository.cs" selected="True" />
-              </Node>
+          <Node name="studentAPI" expanded="True">
+            <Node name="studentAPI" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Repositories" expanded="True" />
             </Node>
           </Node>
         </State>

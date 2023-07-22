@@ -11,6 +11,7 @@ namespace studentAPI.Repositories
         {
             _studentAdminContext = context;
         }
+
         public async Task<List<Student>> GetAllStudentsAsync()
         {
             return await  _studentAdminContext.Student.Include(nameof(Gender)).Include(nameof(Address)).ToListAsync();
@@ -19,6 +20,11 @@ namespace studentAPI.Repositories
         public async Task<Student> GetStudentAsync(Guid studentId)
         {
             return await _studentAdminContext.Student.Include(nameof(Gender)).Include(nameof(Address)).FirstOrDefaultAsync(x => x.Id==studentId);
+        }
+
+        public async Task<List<Gender>> GetGendersAsync()
+        {
+            return await _studentAdminContext.Gender.ToListAsync();
         }
     }
 }
