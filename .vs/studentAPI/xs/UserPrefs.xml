@@ -1,45 +1,41 @@
 ﻿<Properties StartupConfiguration="{4B051A5E-C55E-409D-B21C-946E4AE1B1F2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="studentAPI/DataModels/StudentAdminContext.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="studentAPI/Repositories/SqlStudentRepository.cs">
     <Files>
-      <File FileName="studentAPI/Profiles/AutoMapperProfiles.cs" Line="14" Column="34" />
-      <File FileName="studentAPI/Program.cs" />
-      <File FileName="studentAPI/Controllers/StudentController.cs" Line="31" Column="61" />
-      <File FileName="studentAPI/Repositories/IStudentRepository.cs" Line="12" Column="38" />
-      <File FileName="studentAPI/Repositories/SqlStudentRepository.cs" Line="22" Column="95" />
-      <File FileName="studentAPI/appsettings.json" Line="1" Column="1" />
-      <File FileName="studentAPI/Controllers/GendersController.cs" Line="38" Column="59" />
-      <File FileName="studentAPI/DataModels/Address.cs" Line="8" Column="17" />
-      <File FileName="studentAPI/DataModels/Gender.cs" Line="1" Column="1" />
-      <File FileName="studentAPI/DataModels/Student.cs" Line="24" Column="20" />
-      <File FileName="studentAPI/DomainModels/Address.cs" Line="8" Column="23" />
-      <File FileName="studentAPI/DomainModels/Gender.cs" Line="1" Column="1" />
-      <File FileName="studentAPI/DomainModels/Student.cs" Line="26" Column="17" />
-      <File FileName="studentAPI/Migrations/20230718191438_InitialCreate.cs" Line="19" Column="21" />
-      <File FileName="studentAPI/Migrations/StudentAdminContextModelSnapshot.cs" Line="126" Column="37" />
-      <File FileName="studentAPI/DataModels/StudentAdminContext.cs" Line="14" Column="18" />
+      <File FileName="studentAPI/Program.cs" Line="18" Column="1" />
+      <File FileName="studentAPI/DataModels/Student.cs" Line="12" Column="18" />
+      <File FileName="studentAPI/Profiles/AfterMaps/UpdateStudentRequestAfterMap.cs" Line="16" Column="1" />
+      <File FileName="studentAPI/Repositories/SqlStudentRepository.cs" Line="49" Column="53" />
+      <File FileName="studentAPI/Repositories/IStudentRepository.cs" Line="16" Column="64" />
+      <File FileName="studentAPI/DataModels/StudentAdminContext.cs" Line="14" Column="26" />
+      <File FileName="studentAPI/DomainModels/Gender.cs" Line="8" Column="1" />
+      <File FileName="studentAPI/Controllers/StudentController.cs" Line="54" Column="43" />
+      <File FileName="studentAPI/Profiles/AutoMapperProfiles.cs" Line="1" Column="1" />
+      <File FileName="studentAPI/DataModels/Adress.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="studentAPI">
             <Node name="studentAPI">
-              <Node name="Controllers" expanded="True" />
-              <Node name="DataModels" expanded="True">
-                <Node name="StudentAdminContext.cs" selected="True" />
+              <Node name="Profiles" expanded="True">
+                <Node name="AfterMaps" expanded="True" />
               </Node>
-              <Node name="DomainModels" expanded="True" />
-              <Node name="Properties" expanded="True" />
+              <Node name="Repositories">
+                <Node name="SqlStudentRepository.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/tunahanozen/StudentApp/studentAPI/studentAPI/Repositories/SqlStudentRepository.cs" relfile="studentAPI/Repositories/SqlStudentRepository.cs" line="37" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.studentAPI PreferredExecutionTarget="/Applications/Opera.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.studentAPI PreferredExecutionTarget="/Applications/Opera.app" />
 </Properties>

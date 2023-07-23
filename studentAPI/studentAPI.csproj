@@ -24,12 +24,14 @@
     <None Remove="Repositories\" />
     <None Remove="DomainModels\" />
     <None Remove="Profiles\" />
+    <None Remove="Profiles\AfterMaps\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataModels\" />
     <Folder Include="Repositories\" />
     <Folder Include="DomainModels\" />
     <Folder Include="Profiles\" />
+    <Folder Include="Profiles\AfterMaps\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Migrations\20230719133205_MyFirstMigration.Designer.cs" />
