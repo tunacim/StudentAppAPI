@@ -1,28 +1,28 @@
 ﻿<Properties StartupConfiguration="{4B051A5E-C55E-409D-B21C-946E4AE1B1F2}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="studentAPI/Repositories/SqlStudentRepository.cs">
     <Files>
-      <File FileName="studentAPI/Program.cs" Line="18" Column="1" />
-      <File FileName="studentAPI/DataModels/Student.cs" Line="12" Column="18" />
-      <File FileName="studentAPI/Profiles/AfterMaps/UpdateStudentRequestAfterMap.cs" Line="16" Column="1" />
-      <File FileName="studentAPI/Repositories/SqlStudentRepository.cs" Line="49" Column="53" />
+      <File FileName="studentAPI/Program.cs" />
+      <File FileName="studentAPI/DataModels/Student.cs" Line="12" Column="30" />
+      <File FileName="studentAPI/Profiles/AfterMaps/UpdateStudentRequestAfterMap.cs" />
+      <File FileName="studentAPI/Repositories/SqlStudentRepository.cs" Line="42" Column="44" />
       <File FileName="studentAPI/Repositories/IStudentRepository.cs" Line="16" Column="64" />
-      <File FileName="studentAPI/DataModels/StudentAdminContext.cs" Line="14" Column="26" />
-      <File FileName="studentAPI/DomainModels/Gender.cs" Line="8" Column="1" />
-      <File FileName="studentAPI/Controllers/StudentController.cs" Line="54" Column="43" />
-      <File FileName="studentAPI/Profiles/AutoMapperProfiles.cs" Line="1" Column="1" />
-      <File FileName="studentAPI/DataModels/Adress.cs" Line="1" Column="1" />
+      <File FileName="studentAPI/DataModels/StudentAdminContext.cs" />
+      <File FileName="studentAPI/DomainModels/Gender.cs" />
+      <File FileName="studentAPI/Controllers/StudentController.cs" />
+      <File FileName="studentAPI/Profiles/AutoMapperProfiles.cs" />
+      <File FileName="studentAPI/DataModels/Adress.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="studentAPI">
-            <Node name="studentAPI">
+            <Node name="studentAPI" expanded="True">
+              <Node name="DataModels" expanded="True" />
+              <Node name="DomainModels" expanded="True" />
               <Node name="Profiles" expanded="True">
                 <Node name="AfterMaps" expanded="True" />
               </Node>
-              <Node name="Repositories">
-                <Node name="SqlStudentRepository.cs" selected="True" />
-              </Node>
+              <Node name="Repositories" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -30,9 +30,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/tunahanozen/StudentApp/studentAPI/studentAPI/Repositories/SqlStudentRepository.cs" relfile="studentAPI/Repositories/SqlStudentRepository.cs" line="37" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.studentAPI PreferredExecutionTarget="/Applications/Opera.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
