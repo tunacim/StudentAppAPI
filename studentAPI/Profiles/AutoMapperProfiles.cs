@@ -14,7 +14,8 @@ namespace studentAPI.Profiles
 			CreateMap<DataModels.Gender, Gender>().ReverseMap();
 			CreateMap<DataModels.Adress, Adress>().ReverseMap();
 			CreateMap<UpdateStudentRequest, DataModels.Student>().AfterMap<UpdateStudentRequestAfterMap>();
-			
+			CreateMap<AddStudentRequest, DataModels.Student>().AfterMap<AddStudentRequestAfterMap>();
+
         }
 	}
 }

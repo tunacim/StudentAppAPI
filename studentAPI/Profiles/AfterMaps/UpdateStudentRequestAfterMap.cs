@@ -1,7 +1,7 @@
 ﻿using System;
 using AutoMapper;
 using studentAPI.DomainModels;
-using DataModels = studentAPI.DataModels;
+
 
 namespace studentAPI.Profiles.AfterMaps
 {
