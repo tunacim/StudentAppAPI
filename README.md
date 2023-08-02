@@ -11,5 +11,9 @@ StudentAppAPI
 
 
 
-https://github.com/tunacim/StudentAppAPI/assets/92800666/4aa77b4b-96f7-43b7-bc23-6c38ae383f6c
+
+https://github.com/tunacim/StudentAppAPI/assets/92800666/c14ca2c9-1322-452c-8ada-496e293cf1cb
+
+
+
 
