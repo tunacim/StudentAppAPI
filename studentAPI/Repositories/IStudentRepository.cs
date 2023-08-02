@@ -20,6 +20,7 @@ namespace studentAPI.Repositories
         Task<Student> AddStudent(Student student);
 
 
+
     }
 }
 

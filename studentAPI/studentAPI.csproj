@@ -17,6 +17,7 @@
     </PackageReference>
     <PackageReference Include="AutoMapper" Version="12.0.1" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -25,6 +26,7 @@
     <None Remove="DomainModels\" />
     <None Remove="Profiles\" />
     <None Remove="Profiles\AfterMaps\" />
+    <None Remove="Validators\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataModels\" />
@@ -32,6 +34,7 @@
     <Folder Include="DomainModels\" />
     <Folder Include="Profiles\" />
     <Folder Include="Profiles\AfterMaps\" />
+    <Folder Include="Validators\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Migrations\20230719133205_MyFirstMigration.Designer.cs" />

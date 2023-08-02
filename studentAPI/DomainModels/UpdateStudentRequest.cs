@@ -11,7 +11,7 @@ namespace studentAPI.DomainModels
 
         public string Email { get; set; }
 
-        public string Mobile { get; set; }
+        public long Mobile { get; set; }
 
         public Guid GenderId { get; set; }
 

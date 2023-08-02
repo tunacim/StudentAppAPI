@@ -1,4 +1,5 @@
 ﻿using System.Reflection;
+using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using studentAPI.DataModels;
 using studentAPI.Repositories;
@@ -12,6 +13,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddFluentValidation(fv=>fv.RegisterValidatorsFromAssemblyContaining<Program>());
 
 builder.Services.AddScoped<IStudentRepository, SqlStudentRepository>();
 var connectionString = builder.Configuration.GetConnectionString("PostgreSQL");
